@@ -1,6 +1,19 @@
 header {
-  height: 100px;
+  height: 120px;
   background-color: black;
+}
+
+.header-top ul {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+.header-top ul li {
+  padding-left: 20px;
+}
+.header-top ul select {
+  padding-left: 20px;
+  margin-left: 20px;
 }
 
 main {
