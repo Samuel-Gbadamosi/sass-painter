@@ -1,0 +1,9 @@
+header {
+  height: 100px;
+  background-color: black;
+}
+
+main {
+  background-image: url("../imgP/img1.webp");
+  height: 500px;
+}
