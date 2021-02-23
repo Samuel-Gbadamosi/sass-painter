@@ -6,23 +6,34 @@ header{
 ul li a{
   list-style: none;
 
+
 }
 .p{
-  height: 32px;
-      width: 115px;
+  height: 19px;
       margin-left: -68px;
 }
+
 
 .header-top ul{
   display: flex;
   justify-content: flex-end;
-  padding: 20px;
+  padding-top: 5px;
   li{
     padding-left: 20px;
+    .white{
+      color:blue;
+      padding-right:3px;
+
+    }
+    a{
+      text-decoration: none;
+      color:white;
+    }
   }
   select{
-    padding-left: 20px;
-    margin-left: 20px;
+    margin-right: 5px;
+    margin-left: 10px;
+
 
   }
 }
@@ -31,9 +42,14 @@ ul li a{
   display: flex;
   justify-content: space-evenly;
   padding-right: 20px;
+  padding-top: 34px;
+
+
 
   a{
     color:white;
+    text-decoration: none;
+
   }
 }
 

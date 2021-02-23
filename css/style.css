@@ -8,31 +8,40 @@ ul li a {
 }
 
 .p {
-  height: 32px;
-  width: 115px;
+  height: 19px;
   margin-left: -68px;
 }
 
 .header-top ul {
   display: flex;
   justify-content: flex-end;
-  padding: 20px;
+  padding-top: 5px;
 }
 .header-top ul li {
   padding-left: 20px;
 }
+.header-top ul li .white {
+  color: blue;
+  padding-right: 3px;
+}
+.header-top ul li a {
+  text-decoration: none;
+  color: white;
+}
 .header-top ul select {
-  padding-left: 20px;
-  margin-left: 20px;
+  margin-right: 5px;
+  margin-left: 10px;
 }
 
 .header-bottom ul {
   display: flex;
   justify-content: space-evenly;
   padding-right: 20px;
+  padding-top: 34px;
 }
 .header-bottom ul a {
   color: white;
+  text-decoration: none;
 }
 
 main {
